@@ -60,4 +60,8 @@ INSERT INTO first_tabla (nombre, apellido, titulo, año_edicion)
 
 SELECT * FROM first_tabla;
 
+INSERT INTO first_tabla (nombre, apellido, titulo, año_edicion)
+ VALUES ("Shia", "Lebouf", "Amantes", 20203);
+ 
+
 
