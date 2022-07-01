@@ -11,7 +11,7 @@ id_autor INT NOT NULL AUTO_INCREMENT,
 nombre VARCHAR (10) NOT NULL,
 apellido VARCHAR (12) NOT NULL,
 titulo VARCHAR (25) NOT NULL,
-año_edicion INT (4) NOT NULL,
+año_edicion INT NOT NULL,
 PRIMARY KEY (id_autor)
 );
 
@@ -62,6 +62,6 @@ SELECT * FROM first_tabla;
 
 INSERT INTO first_tabla (nombre, apellido, titulo, año_edicion)
  VALUES ("Shia", "Lebouf", "Amantes", 20203);
- 
+
 
 
